@@ -1,1 +1,3 @@
-# telegram_bot_simple_py
+# Telegram Python Chat Bot
+
+pip install python-telegram-bot
