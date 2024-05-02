@@ -1,16 +1,16 @@
 import telebot
 
-# โทเค็นบอทของคุณ
+# Token
 BOT_TOKEN = "YOUR_BOT_TOKEN"
 
-# สร้างตัวอย่างบอท
+# Create Bot
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# ฟังก์ชันการทำงานเมื่อมีคนส่งข้อความ
+# Receive Message
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
-  # ตอบกลับข้อความ
-  bot.reply_to(message, "สวัสดี! คุณส่งข้อความอะไรมา")
+  # Reply Message
+  bot.reply_to(message, "Hello !!")
 
-# เริ่มการทำงานของบอท
+# Start Bot
 bot.polling()
