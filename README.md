@@ -1,3 +1,3 @@
 # Telegram Python Chat Bot
 
-Run the terminal : `pip install python-telegram-bot`
+Run the terminal : `pip install pyTelegramBotAPI`
